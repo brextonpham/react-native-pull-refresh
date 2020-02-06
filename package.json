@@ -20,10 +20,10 @@
     "url": "https://github.com/NadiKuts/react-native-pull-refresh/issues"
   },
   "dependencies": {
-    "react-test-renderer": "16.0.0",
-    "lottie-react-native": "2.2.0",
-    "react": "16.0.0",
-    "react-native": "0.55.0",
+    "react-test-renderer": "16.9.0",
+    "lottie-react-native": "^3.3.2",
+    "react": "16.9.0",
+    "react-native": "0.61.1",
     "prop-types": "^15.6.1"
   },
   "devDependencies": {
