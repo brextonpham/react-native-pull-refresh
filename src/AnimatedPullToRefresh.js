@@ -99,7 +99,7 @@ class AnimatedPullToRefresh extends React.Component {
   }
 
   _handleMoveShouldSetPanResponder(e, gestureState) {
-    return !this.state.isScrollFree;
+    return !(gestureState.dx === 0 && gestureState.dy === 0) && !this.state.isScrollFree;
   }
 
   // if the content scroll value is at 0, we allow for a pull to refresh
